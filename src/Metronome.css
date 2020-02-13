@@ -1,0 +1,44 @@
+
+
+  .yay {  background: #878994;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 30px;
+    height: 2px;
+    width: 250px;
+    -webkit-appearance: none;
+  }
+
+
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background: #1cc88a;
+    cursor: pointer;
+  }
+  
+
+
+  /* document.getElementById("myinput").oninput = function() {
+    this.style.background = 'linear-gradient(to right, #82CFD0 0%, #82CFD0 ' + this.value + '%, #fff ' + this.value + '%, white 100%)'
+  };
+
+  #myinput {
+    background: linear-gradient(to right, #82CFD0 0%, #82CFD0 50%, #fff 50%, #fff 100%);
+    border: solid 1px #82CFD0;
+    border-radius: 8px;
+    height: 7px;
+    width: 356px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+  }
+
+  <div class="chrome">
+  <input id="myinput" type="range" value="50" />
+</div> */
